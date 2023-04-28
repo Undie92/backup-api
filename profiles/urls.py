@@ -3,4 +3,5 @@ from profiles import views
 
 urlpatterns = [
     path('profiles/', views.ProfileList.as__view()),
+    path('profiles/<int:pk>/', views.ProfileDetail.as_view()),
 ]
