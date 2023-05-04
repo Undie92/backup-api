@@ -63,7 +63,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEV' in os.environ
 
-ALLOWED_HOSTS = ['localhost', 'https://git.heroku.com/backup-proj.git']
+ALLOWED_HOSTS = ['localhost', 'https://backup-proj.herokuapp.com']
 
 
 # Application definition
