@@ -29,7 +29,7 @@ class Post(models.Model):
     description = models.TextField(blank=True)
     image = models.ImageField(
         upload_to='images/', default='../default_post_mzgj1g', blank=True)
-    price = models.DecimalField(max_digits=10, decimal_places=2)
+    price = models.IntegerField()
     image_filter = models.CharField(
         max_length=32, default='normal'
         )
