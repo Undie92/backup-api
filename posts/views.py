@@ -24,7 +24,7 @@ class PostList(generics.ListCreateAPIView):
         'likes_count',
         'comments_count',
         'likes__created_at',
-        
+
     ]
     search_fields = ['owner__username', 'title', 'category_type']
     filterset_fields = [

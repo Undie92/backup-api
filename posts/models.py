@@ -4,7 +4,6 @@ from django.contrib.auth.models import User
 
 class Post(models.Model):
 
-
     CATEGORY_TYPES = (
         ("food", "Food"),
         ("drink", "Drink"),
@@ -32,7 +31,7 @@ class Post(models.Model):
     price = models.IntegerField()
     image_filter = models.CharField(
         max_length=32, default='normal'
-        )
+    )
 
     class Meta:
         ordering = ['-created_at']
