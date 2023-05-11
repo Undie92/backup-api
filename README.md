@@ -17,6 +17,7 @@ ___
     * [Deploying to Heroku](#heroku)
     * [Forking the GitHub Repository](#forking-the-github-repository)
     * [Creating a Local Clone](#creating-a-local-clone)
+* [Credits](#credits)
 
 ___
 ## Development Goals
@@ -285,3 +286,6 @@ More information on Creating and Managing repositories can be found [here](https
 [Back To Top](#marketplace-api)
 
 ___
+## Credits
+
+* I've taken inspiration and help from the LMS of Code Institute.
